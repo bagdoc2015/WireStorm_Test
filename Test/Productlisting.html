@@ -1,0 +1,28 @@
+<html>
+   
+   <head>
+      <title>Product Listing</title>
+   </head>
+   
+   <body>
+      <h1>Test Application</h1>
+      
+      <div ng-app = "" ng-init = "Product = [{name:'Product 1'}, {name:'Product 2'}, {name:'Product 3'}]"> 
+         <p>Product Listing</p>
+      
+         <ol>
+            <li ng-repeat = "items in Product">
+               
+ 		{{ items.name }}
+            </li>
+         </ol>
+      </div>
+      
+      <script src = "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+      
+ 
+      </script>
+
+
+   </body>
+</html>
